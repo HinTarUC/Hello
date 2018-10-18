@@ -23,7 +23,7 @@ private TextView clearMsg;
 
         //Link UI to program
         textViewMsg = findViewById(R.id.textViewMessage);
-        clearMsg= findViewById(R.id.clearMsg);
+        clearMsg= findViewById(R.id.clearMessage);
 
 
         //textViewMsg.setText("Helllo, Hin");
