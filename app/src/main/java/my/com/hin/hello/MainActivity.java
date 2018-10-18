@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 private TextView textViewMsg;
-private TextView clearMsg;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //onCreate() = main() function
@@ -23,7 +23,7 @@ private TextView clearMsg;
 
         //Link UI to program
         textViewMsg = findViewById(R.id.textViewMessage);
-        clearMsg= findViewById(R.id.clearMessage);
+
 
 
         //textViewMsg.setText("Helllo, Hin");
@@ -35,6 +35,6 @@ private TextView clearMsg;
         textViewMsg.setText("Hello, <your name here>");
     }
     public void clearMessage(View view){
-        clearMsg.setText("");
+        textViewMsg.setText("");
     }
 }
